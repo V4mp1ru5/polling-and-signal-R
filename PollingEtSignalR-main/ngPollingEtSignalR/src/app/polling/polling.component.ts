@@ -17,7 +17,7 @@ export class PollingComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
   ngOnInit(): void {
-    this.updateTasks();
+
   }
 
   async complete(id: number) {
